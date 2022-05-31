@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "developer_portals",
+  "info": {
+    "singularName": "developer-portal",
+    "pluralName": "developer-portals",
+    "displayName": "DeveloperPortal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "type": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "linkDocumentation": {
+      "type": "string"
+    },
+    "contributorName": {
+      "type": "string"
+    }
+  }
+}

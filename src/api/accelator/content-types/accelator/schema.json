@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accelators",
+  "info": {
+    "singularName": "accelator",
+    "pluralName": "accelators",
+    "displayName": "accelator"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
